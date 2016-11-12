@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>favorite character</title>
+<link href="https://fonts.googleapis.com/css?family=Akronim|La+Belle+Aurore|New+Rocker" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-2"></div>
+		<h1 class="col-md-8 offset-2" id="hello">Whats your favorite character?</div>
+	</div>
+	<div class="row">
+		<div class="col-md-3"></div>
+		<input type="text" placeholder="Type the name" id="search" class="col-md-6" onkeydown="if(event.keyCode==13) getInfo()" autofocus> 
+
+	</div>
+	<button type="button" id="click" onclick="getInfo()">SEARCH</button>
+	<div class="none" id="display">
+	<h1 id="jhund"></h1>
+	<img src="" id="image">
+		<p id="about"></p>
+	</div>
+</div>
+
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>

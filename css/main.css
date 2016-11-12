@@ -1,0 +1,50 @@
+body {
+	text-align: center;
+	background-image: url(../img/world.jpeg);
+	background-position: center ;
+	background-size: 100% 160%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: pink;
+
+}
+
+#search{
+	background-color: transparent;
+	border: none;
+	width: 40%;
+	margin-left: 55px
+}
+
+p {
+	font-size: 20px;
+    font-family: 'New Rocker', cursive;
+    color: #fef07d;
+    font-weight: lighter;
+    text-shadow: 1px 1px red;
+    margin-top: 20px
+}
+
+#image {
+	opacity: 0.75;
+	
+}
+
+.none h1 {
+    font-family: 'New Rocker', cursive;
+      color: #fef07d;
+    font-weight: lighter;
+    text-shadow: 1px 1px red
+
+}
+
+#hello {
+	font-family: 'Akronim', cursive;
+    font-size: 60px
+}
+
+#click {
+	margin-top: 20px;
+	background-color: black;
+
+}
